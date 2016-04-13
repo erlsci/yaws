@@ -69,6 +69,7 @@ bin/
 yaws_logs/
 .eunit/*
 .rebar/*
+_build/*
 yaws-*.tar.gz
 applications/yapp/doc/edoc-info
 applications/yapp/doc/erlang.png
