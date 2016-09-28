@@ -60,9 +60,9 @@ Finally, to run the testsuites, yaws need to install:
 Build
 -----
 
-You can build using rebar:
+You can build using ``rebar3``:
 
-    $> rebar get-deps compile
+    $> rebar3 compile
 
 or via autotools:
 
@@ -118,7 +118,7 @@ With autotools, to test the build, you should install it somewhere:
     $> ./configure --prefix=$PWD/_inst && make install
     $> $PWD/_inst/bin/yaws -i
 
-If you used rebar to compile Yaws, you can alternatively start Yaws with
+If you used ``rebar3`` to compile Yaws, you can alternatively start Yaws with
 
     $> ./bin/yaws -i
 
@@ -127,8 +127,8 @@ Terminate through ^C, or ^G followed by q, or
 
     > init:stop()
 
-NOTE: If you've used rebar to build the system, none of the following
-directions apply. With rebar only "local installations" are supported.
+NOTE: If you've used ``rebar3`` to build the system, none of the following
+directions apply. With ``rebar3``, only "local installations" are supported.
 
 
 Install and run

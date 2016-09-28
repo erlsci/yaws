@@ -216,16 +216,16 @@ The \verb+make+ command will compile the \Yaws\  web server with the
 
 \end{itemize}
 
-Alternatively, you can compile \Yaws\  with \verb+rebar+ as follows:
+Alternatively, you can compile \Yaws\  with \verb+rebar3+ as follows:
 
 \begin{verbatim}
-# rebar get-deps compile
+# rebar3 compile
 \end{verbatim}
 
 If you want to build with SOAP support, run the following command:
 
 \begin{verbatim}
-# YAWS_SOAP=1 rebar get-deps compile
+# YAWS_SOAP=1 rebar3 compile
 \end{verbatim}
 
 To create a \Yaws\  release with \verb+reltool+, execute the following
